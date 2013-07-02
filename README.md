@@ -28,15 +28,15 @@ Output:
 		'Mugwort': [ 'Wormwood', 'Artemisia' ],
 		'Wormwood': [ 'Mugwort', 'Artemisia' ],
 		...,
-		Achillea: ['Yarrow' ],
-		Wattle: [ 'Acacia', 'Mimosa' ],
-		Acacia: [ 'Mimosa', 'Wattle' ]
+		'Achillea': ['Yarrow' ],
+		'Wattle': [ 'Acacia', 'Mimosa' ],
+		'Acacia': [ 'Mimosa', 'Wattle' ]
 	}
 ```
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Bloompop
+Copyright (c) 2013 Bloompop, LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
