@@ -1,6 +1,9 @@
 #Flowers.js
 This module provides two things: a list of names of most flowers, and a map with every name and a list of its alternate names.
 
+Note: All names are lowercase.
+
+
 Use:
 
 ```javascript
@@ -13,24 +16,24 @@ Output:
 
 ```
 	list: [
-		'Garden Rose',
-		'Zinnia',
-		'Wormwood',
+		'garden rose',
+		'zinnia',
+		'wormwood',
 		...,
-		'Acacia',
-		'Mimosa',
-		'Wattle'
+		'acacia',
+		'mimosa',
+		'wattle'
 	]
 	map: {
-		'Garden Rose': [],
-		'Zinnia': [],
-		'Artemisia': [ 'Wormwood', 'Mugwort' ],
-		'Mugwort': [ 'Wormwood', 'Artemisia' ],
-		'Wormwood': [ 'Mugwort', 'Artemisia' ],
+		'garden rose': [],
+		'zinnia': [],
+		'artemisia': [ 'wormwood', 'mugwort' ],
+		'mugwort': [ 'wormwood', 'artemisia' ],
+		'wormwood': [ 'mugwort', 'artemisia' ],
 		...,
-		'Achillea': ['Yarrow' ],
-		'Wattle': [ 'Acacia', 'Mimosa' ],
-		'Acacia': [ 'Mimosa', 'Wattle' ]
+		'achillea': ['Yarrow' ],
+		'wattle': [ 'acacia', 'mimosa' ],
+		'acacia': [ 'mimosa', 'wattle' ]
 	}
 ```
 
