@@ -1,4 +1,4 @@
-var csv = fs.readFileSync(__dirname + '/flowers.csv', 'utf8')
+var csv = require('fs').readFileSync(__dirname + '/flowers.csv', 'utf8')
 csv = csv.toLowerCase()
 var lines = csv.split('\n')
 var flowers = {}

@@ -1,6 +1,6 @@
 {
   "name": "flowers",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Map and list of flower names",
   "main": "index.js",
   "scripts": {
