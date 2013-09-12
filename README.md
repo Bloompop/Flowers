@@ -1,5 +1,5 @@
 #Flowers.js
-This module provides two things: a list of names of most flowers, and a map with every name and a list of its alternate names.
+This module provides three things: a list of names of most flowers, a map with every name and a list of its alternate names, and the primary or most common name for each flower.
 
 Note: All names are lowercase.
 
@@ -10,6 +10,7 @@ Use:
 	var flowers = require('flowers');
 	console.log('list:', flowers.list);
 	console.log('map:', flowers.map);
+	console.log('primaries:', flowers.primaries);
 ```
 
 Output:
@@ -34,6 +35,14 @@ Output:
 		'achillea': ['Yarrow' ],
 		'wattle': [ 'acacia', 'mimosa' ],
 		'acacia': [ 'mimosa', 'wattle' ]
+	}
+	primaries: { ' mushroom': 'mushrooms',
+		'caladenia': 'orchids',
+		'spider orchid': 'orchids',
+		...,
+		'acacia': 'acacias',
+		'wattle': 'acacias',
+		'mimosa': 'acacias'
 	}
 ```
 
