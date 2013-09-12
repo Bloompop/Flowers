@@ -15,7 +15,6 @@ for (var i = lines.length - 1; i >= 0; i--) {
 		}
 	}
 }
-console.log(primaries)
 module.exports.list = Object.keys(flowers)
 module.exports.primaries = primaries
 module.exports.map = flowers
