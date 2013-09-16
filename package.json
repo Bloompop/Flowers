@@ -1,6 +1,6 @@
 {
   "name": "flowers",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Map and list of flower names",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "flowers"
+  ],
+  "files": [
+    "./flowers.csv"
   ],
   "author": "Matt Scandalis",
   "license": "MIT",
