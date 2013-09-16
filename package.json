@@ -14,7 +14,7 @@
     "flowers"
   ],
   "files": [
-    "./flowers.csv"
+    "flowers.csv"
   ],
   "author": "Matt Scandalis",
   "license": "MIT",
