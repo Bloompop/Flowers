@@ -46,6 +46,9 @@ Output:
 	}
 ```
 
+##Simple
+There is now a simple version of each object. In the simple version each name is completely lowercase, without punctuation, and - characters replacing whitespace. They can be accesed at `flowers.simple.___`.
+
 The MIT License (MIT)
 
 Copyright (c) 2013 Bloompop, LLC
